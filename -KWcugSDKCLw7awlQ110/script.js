@@ -12,11 +12,10 @@ consoleLogExample.html(formattedExample)
 //function
 function myfunction(a, b) {
   return a * b;
+  myfunction(4, 3);
 }
 
-myfunction(4, 3);
-var call = "12"
-var call = "12"
+var call = "(12)"
 
 var functionString = myfunction.toString() + call
 var functionExample = $("#function-example")
