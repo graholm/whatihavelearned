@@ -1,30 +1,28 @@
+//coonsole log
 function logArgs(args) {
   var args = 1
   console.log(args)
 }
-
 var functionString = logArgs.toString()
-
 var consoleLogExample = $("#console-log-example")
-
 var formattedExample = $("<pre>")
-
 formattedExample.text(functionString)
-
 consoleLogExample.html(formattedExample)
 
 //function
+
 function myFunction(p1, p2) {
   return p1 * p2;
 }
-
-var functionExample = $("#function-example")
-
+var functionString = myfunction.toString()
+var consoleLogExample = $("#console-log-example")
 var formattedExample = $("<pre>")
-
 formattedExample.text(functionString)
+consoleLogExample.html(formattedExample)
 
-functionExample.html(formattedExample)
+
+
+
 
 //function takes in function
 $("#function-input").keydown(function(e) {	
