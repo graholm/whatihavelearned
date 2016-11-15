@@ -22,14 +22,12 @@ formattedExample.text(functionString)
 functionExample.html(formattedExample)
 
 
-
-//function that takes in function
+//function w/ a function
 $("#function-input").keydown(function(e) {	
   if (e.keyCode == "13") {
     $("#function-input").css("background-color", "yellow");
   }
 })
-
 
 
 //jquery
