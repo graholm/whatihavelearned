@@ -68,16 +68,16 @@ formattedExample.text(functionString)
 
 buttonExample.html(formattedExample)
 
-//firebase
+
 var input = $("#firebase-input")
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
     var valueToSave = input.val();
-    addListItem("sophiasList", valueToSave);
+    addListItem("LIST", valueToSave);
   }
 })
 
-onNewListItem("sophiasList", function(value) {
+onNewListItem("LIST", function(value) {
   $("#firebase-display").append("<div>" + value + "</div>")
 }) 
