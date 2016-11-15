@@ -10,20 +10,15 @@ formattedExample.text(functionString)
 consoleLogExample.html(formattedExample)
 
 //function
-function perimeter(length, width) {
-  console.log(length + length + width + width);
-
+function myFunction(p1, p2) {
+  return p1 * p2;
 };
 
-var call = "\nperimeter(3,5)"
+var call = "(12)"
 var functionString = perimeter.toString() + call
-
 var functionExample = $("#function-example")
-
 var formattedExample = $("<pre>")
-
 formattedExample.text(functionString)
-
 functionExample.html(formattedExample)
 
 
