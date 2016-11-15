@@ -10,9 +10,11 @@ formattedExample.text(functionString)
 consoleLogExample.html(formattedExample)
 
 //function
-function myFunction(p1, p2) {
-  return p1 * p2;
-};
+function myFunction(a, b) {
+  return a * b;
+}
+
+myFunction(4, 3);
 
 var call = "(12)"
 var functionString = perimeter.toString() + call
