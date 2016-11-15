@@ -10,19 +10,19 @@ formattedExample.text(functionString)
 consoleLogExample.html(formattedExample)
 
 //function
-function myFunction(a, b) {
+function myfunction(a, b) {
   return a * b;
 }
 
-myFunction(4, 3);
+myfunction(4, 3);
+var call = "12"
+var call = "12"
 
-var call = "(12)"
-var functionString = perimeter.toString() + call
+var functionString = myfunction.toString() + call
 var functionExample = $("#function-example")
 var formattedExample = $("<pre>")
 formattedExample.text(functionString)
 functionExample.html(formattedExample)
-
 
 
 
