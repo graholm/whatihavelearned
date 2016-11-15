@@ -23,11 +23,17 @@ functionExample.html(formattedExample)
 
 
 //function w/ a function
-$("#function-input").keydown(function(e) {	
+$("#function-input").keydown(function(e) {(	
   if (e.keyCode == "13") {
-    $("#function-input").css(document.write);
+    $("#function-input").css(document.write("thanks!")
   }
 })
+
+
+
+
+
+
 
 
 //jquery
