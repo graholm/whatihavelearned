@@ -12,11 +12,9 @@ consoleLogExample.html(formattedExample)
 //function
 function myfunction(a, b) {
   return a * b;
-  myfunction(4, 3);
 }
-
-var call = "(12)"
-
+myfunction(4, 3);
+var call = "12"
 var functionString = myfunction.toString() + call
 var functionExample = $("#function-example")
 var formattedExample = $("<pre>")
@@ -25,12 +23,7 @@ functionExample.html(formattedExample)
 
 
 
-
-
-
-
-
-//function takes in function
+//function that takes in function
 $("#function-input").keydown(function(e) {	
   if (e.keyCode == "13") {
     $("#function-input").css("background-color", "yellow");
