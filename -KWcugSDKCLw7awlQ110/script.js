@@ -1,4 +1,4 @@
-//coonsole log
+//console log
 function logArgs(args) {
   var args = 1
   console.log(args)
@@ -10,15 +10,20 @@ formattedExample.text(functionString)
 consoleLogExample.html(formattedExample)
 
 //function
-
-function myFunction(p1, p2) {
+function myfunction(p1, p2) {
   return p1 * p2;
 }
 var functionString = myfunction.toString()
-var consoleLogExample = $("#console-log-example")
+var functionExample = $("#function-example")
 var formattedExample = $("<pre>")
 formattedExample.text(functionString)
 consoleLogExample.html(formattedExample)
+
+
+
+
+
+
 
 
 
@@ -30,6 +35,8 @@ $("#function-input").keydown(function(e) {
     $("#function-input").css("background-color", "yellow");
   }
 })
+
+
 
 //jquery
 $("#button").click(function() {
