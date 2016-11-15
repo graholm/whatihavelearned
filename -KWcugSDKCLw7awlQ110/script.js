@@ -13,14 +13,10 @@ formattedExample.text(functionString)
 
 consoleLogExample.html(formattedExample)
 
-//function with argument
-function perimeter(length, width) {
-  console.log(length + length + width + width);
-};
-
-var call = "perimeter(3,5)"
-
-var functionString = perimeter.toString() + call
+//function
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
 
 var functionExample = $("#function-example")
 
